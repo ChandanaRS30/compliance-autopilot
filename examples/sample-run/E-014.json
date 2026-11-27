@@ -1,0 +1,20 @@
+{
+  "tree": [
+    {
+      "path": "app.py",
+      "type": "blob"
+    },
+    {
+      "path": "requirements.txt",
+      "type": "blob"
+    },
+    {
+      "path": ".env",
+      "type": "blob"
+    },
+    {
+      "path": "deploy/server.pem",
+      "type": "blob"
+    }
+  ]
+}

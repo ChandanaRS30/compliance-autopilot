@@ -1,0 +1,130 @@
+[
+  {
+    "id": "E-001",
+    "url": "https://api.github.com/repos/acme/good",
+    "status": 200,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "c74b61e17e810a7d71e56b9aa2a8c0459734a898a3b91446c3aaed78f7b0c57d",
+    "file": "E-001.json"
+  },
+  {
+    "id": "E-002",
+    "url": "https://api.github.com/repos/acme/good/branches/main",
+    "status": 200,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "e8b59aaad5e87a274ddb3d504c2634e091588fb81e19957576f6e9fc09c21dc0",
+    "file": "E-002.json"
+  },
+  {
+    "id": "E-003",
+    "url": "https://api.github.com/repos/acme/good/actions/runs?branch=main&per_page=1",
+    "status": 200,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "02ae94a9ba87835e4c07a7cd30702dd4f399cf0b7fdef8aab0c42b527e807711",
+    "file": "E-003.json"
+  },
+  {
+    "id": "E-004",
+    "url": "https://api.github.com/repos/acme/good/contents/.github/dependabot.yml",
+    "status": 200,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "4976910ff3e72d4f15644a844efe5108d7fd9198fa254916918f64a39fe16430",
+    "file": "E-004.json"
+  },
+  {
+    "id": "E-005",
+    "url": "https://api.github.com/repos/acme/good/git/trees/main?recursive=1",
+    "status": 200,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "bedd46026a43d905b6c105c573820290ce8073c7a5a91432e558d34509a63d9f",
+    "file": "E-005.json"
+  },
+  {
+    "id": "E-006",
+    "url": "https://api.github.com/repos/acme/good/git/trees/main?recursive=1",
+    "status": 200,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "bedd46026a43d905b6c105c573820290ce8073c7a5a91432e558d34509a63d9f",
+    "file": "E-006.json"
+  },
+  {
+    "id": "E-007",
+    "url": "https://api.github.com/repos/acme/good/contents/SECURITY.md",
+    "status": 200,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "cd4563d28b21c9fa893aedbfe5acb992e677e3c1be7f92c7a773f9545679b9eb",
+    "file": "E-007.json"
+  },
+  {
+    "id": "E-008",
+    "url": "https://api.github.com/repos/acme/weak",
+    "status": 200,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "c74b61e17e810a7d71e56b9aa2a8c0459734a898a3b91446c3aaed78f7b0c57d",
+    "file": "E-008.json"
+  },
+  {
+    "id": "E-009",
+    "url": "https://api.github.com/repos/acme/weak/branches/main",
+    "status": 200,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "50cdc669ad0faddcce220131dfa80b769d4c6e2bb961472f7cb795dc37833ec6",
+    "file": "E-009.json"
+  },
+  {
+    "id": "E-010",
+    "url": "https://api.github.com/repos/acme/weak/actions/runs?branch=main&per_page=1",
+    "status": 200,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "73aeef71533e89b3d6a364f4c141269c74b26d51e7b20c343ffa73d416230328",
+    "file": "E-010.json"
+  },
+  {
+    "id": "E-011",
+    "url": "https://api.github.com/repos/acme/weak/contents/.github/dependabot.yml",
+    "status": 404,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "b82014934f66beeb9e05a37f65357c4b50db0349d25d68d818ed0319dd4feb40",
+    "file": "E-011.json"
+  },
+  {
+    "id": "E-012",
+    "url": "https://api.github.com/repos/acme/weak/contents/.github/dependabot.yaml",
+    "status": 404,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "b82014934f66beeb9e05a37f65357c4b50db0349d25d68d818ed0319dd4feb40",
+    "file": "E-012.json"
+  },
+  {
+    "id": "E-013",
+    "url": "https://api.github.com/repos/acme/weak/git/trees/main?recursive=1",
+    "status": 200,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "61be401f1393cf8947ba9f3c7177f8bbb2d5f1f7dee9ae4c2675fd443204c586",
+    "file": "E-013.json"
+  },
+  {
+    "id": "E-014",
+    "url": "https://api.github.com/repos/acme/weak/git/trees/main?recursive=1",
+    "status": 200,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "61be401f1393cf8947ba9f3c7177f8bbb2d5f1f7dee9ae4c2675fd443204c586",
+    "file": "E-014.json"
+  },
+  {
+    "id": "E-015",
+    "url": "https://api.github.com/repos/acme/weak/contents/SECURITY.md",
+    "status": 404,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "b82014934f66beeb9e05a37f65357c4b50db0349d25d68d818ed0319dd4feb40",
+    "file": "E-015.json"
+  },
+  {
+    "id": "E-016",
+    "url": "https://api.github.com/repos/acme/weak/contents/.github/SECURITY.md",
+    "status": 404,
+    "retrieved_at": "2026-11-27T09:00:00Z",
+    "sha256": "b82014934f66beeb9e05a37f65357c4b50db0349d25d68d818ed0319dd4feb40",
+    "file": "E-016.json"
+  }
+]

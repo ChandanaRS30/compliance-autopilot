@@ -1,0 +1,20 @@
+{
+  "tree": [
+    {
+      "path": "src/app.py",
+      "type": "blob"
+    },
+    {
+      "path": "uv.lock",
+      "type": "blob"
+    },
+    {
+      "path": ".env.example",
+      "type": "blob"
+    },
+    {
+      "path": "README.md",
+      "type": "blob"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+# Control catalogue: audit requirements on one side, automated technical checks on the other.
+#
+# `requirement` is written for auditors and control owners; each check in
+# compliance/checks.py carries the matching task written for engineers.
+#
+# Framework references are a PROPOSED mapping. In a real ISMS the control owner
+# confirms it. ISO/IEC 27001:2022 references are Annex A controls. SOC 2
+# references are Trust Services Criteria (common criteria). BSI C5:2020 is mapped
+# at domain level only; confirm the exact criterion IDs against the BSI catalogue.
+
+[[control]]
+id = "CTL-01"
+title = "Changes to production code are protected"
+requirement = "Changes to the default branch cannot be made directly; they pass through a controlled change process."
+checks = ["branch_protected"]
+iso27001 = ["A.8.32 Change management", "A.8.4 Access to source code"]
+soc2 = ["CC8.1"]
+c5 = ["DEV: Procurement, development and modification of information systems"]
+mapping_status = "proposed"
+
+[[control]]
+id = "CTL-02"
+title = "Changes are tested before release"
+requirement = "Automated tests run on changes, and the most recent run on the default branch passed within the review period."
+checks = ["ci_passing"]
+iso27001 = ["A.8.29 Security testing in development and acceptance", "A.8.25 Secure development life cycle"]
+soc2 = ["CC8.1"]
+c5 = ["DEV: Procurement, development and modification of information systems"]
+mapping_status = "proposed"
+
+[[control]]
+id = "CTL-03"
+title = "Vulnerable dependencies are detected"
+requirement = "Third-party dependencies are monitored for known vulnerabilities and a process for reporting vulnerabilities exists."
+checks = ["dependabot_enabled", "security_policy"]
+iso27001 = ["A.8.8 Management of technical vulnerabilities"]
+soc2 = ["CC7.1"]
+c5 = ["OPS: Operations"]
+mapping_status = "proposed"
+
+[[control]]
+id = "CTL-04"
+title = "Dependencies are pinned and reproducible"
+requirement = "The exact versions of third-party components are recorded so that builds are reproducible and changes are traceable."
+checks = ["lockfile_present"]
+iso27001 = ["A.8.9 Configuration management", "A.5.21 Managing information security in the ICT supply chain"]
+soc2 = ["CC8.1"]
+c5 = ["DEV: Procurement, development and modification of information systems"]
+mapping_status = "proposed"
+
+[[control]]
+id = "CTL-05"
+title = "Secrets are not stored in source code"
+requirement = "Authentication information such as keys, certificates and credential files is not stored in the code repository."
+checks = ["no_secret_files"]
+iso27001 = ["A.5.17 Authentication information", "A.8.12 Data leakage prevention"]
+soc2 = ["CC6.1"]
+c5 = ["IDM: Identity and access management"]
+mapping_status = "proposed"
