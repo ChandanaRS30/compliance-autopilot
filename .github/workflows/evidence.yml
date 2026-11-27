@@ -24,8 +24,7 @@ jobs:
           python -m compliance scan --out evidence \
             --repo ChandanaRS30/compliance-autopilot \
             --repo ChandanaRS30/fpa-autopilot \
-            --repo ChandanaRS30/kpi-report \
-            --repo ChandanaRS30/evalbench
+            --repo ChandanaRS30/evalbench-
           cat evidence/report.md >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
         with:
